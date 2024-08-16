@@ -18,7 +18,7 @@ module.exports = {
         }
 
         try {
-            const apiUrl = `https://keith-api.onrender.com/imagine?prompt=${encodeURIComponent(prompt)}`;
+            const apiUrl = `https://samirxpikachuio.onrender.com/imagine?prompt=${encodeURIComponent(prompt)}`;
             const response = await axios.get(apiUrl, { responseType: 'arraybuffer' });
             const imageData = Buffer.from(response.data, 'binary');
             await bot.sendPhoto(chatId, imageData);
