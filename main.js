@@ -263,20 +263,20 @@ function createGradientLogger() {
 const logger = createGradientLogger();
 
     const botName = `  
-8  dP 8888 888 88888 8   8      88888      888b. .d88b. 88888 
-8wdP  8www  8    8   8www8        8        8wwwP 8P  Y8   8   
-88Yb  8     8    8   8   8 wwww   8   wwww 8   b 8b  d8   8   
-8  Yb 8888 888   8   8   8        8        888P' `Y88P'   8   
-                                                               
+██   ██  █████  ██████  ██    ██ ██████  
+ ██ ██  ██   ██ ██   ██ ██    ██      ██ 
+  ███   ███████ ██████  ██    ██  █████  
+ ██ ██  ██   ██ ██   ██  ██  ██  ██      
+██   ██ ██   ██ ██   ██   ████   ███████ 
 `;
 
     logger(botName);
-    logger('[ Made by keithkeizzah ]');
+    logger('[ Made by Samir Œ ]');
 
 
 
-const REPO_OWNER = 'keithkeizzah';
-const REPO_NAME = 'T-BOT';
+const REPO_OWNER = 'samirxpikachuio';
+const REPO_NAME = 'XaR-V2';
 
 const VERSION_FILE = path.join(__dirname, 'version.txt');
 
@@ -313,4 +313,3 @@ cron.schedule('* * * * *', checkLatestCommit);
 
 
 module.exports = bot;
-
